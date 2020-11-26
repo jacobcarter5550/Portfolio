@@ -1,0 +1,135 @@
+
+body{
+    margin: 0;
+    font-style: futurina;
+    font-family: 'Raleway', sans-serif;
+}
+.body-background{
+    position: absolute;
+    height: 120vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    left: 0px;
+    top: 0px;
+}
+.cursor-text{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: sans-serif;
+    z-index: 0;
+    color: red;
+}
+.cursor-container{
+    height: 120vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-image: url(20201121-010158.png);
+}
+
+#cursor{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #000;
+    transition: 0.1s;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    pointer-events: none;
+}
+
+h1:hover ~ #cursor{
+    width: 100px;
+    height: 100px;
+    border: 2px dashed #000;
+    animation: animate 5s linear infinite;
+}
+
+@keyframes animate
+{
+    0%
+    {
+        transform: translate(-50%,-50%)rotate(0deg);
+    }
+    100%{
+        transform: translate(-50%,-50%) rotate(360deg);
+    }
+}
+
+/* actual cody start */
+
+.nav_container{
+    display: flex;
+    position: absolute;
+}
+
+.nav_rightside{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.logo_nav_fix{
+    position: absolute;
+    width: 110px;
+    height: 105.47px;
+    left: 51px;
+    top: 15px;
+}
+
+.logo_nav_fix img{
+    /* size: 110px, 105.47px; */
+    width: 100%;
+}
+
+#nav_arrow{
+    position: absolute;
+    left: 64.1vw;
+    top: 7.9vh;
+    bottom: 97.12%;
+    border: 3px #E3B76D;
+}
+
+#about{
+    position: absolute;
+    width: 92px;
+    height: 30px;
+    left: 68.8vw;
+    top: 5.30vh;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #000000;
+}
+
+#contact{
+    position: absolute;
+    width: 92px;
+    height: 30px;
+    left: 78.6vw;
+    top: 5.30vh;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #000000;
+}
+
+#nav_holo{
+    position: absolute;
+    width: 60px;
+    height: 37px;
+    left: 85.9vw;
+    top: 40px;
+
+}

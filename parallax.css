@@ -1,0 +1,59 @@
+.floaty_pixel {
+    background-image: url(20201121-010158.png);
+    background-position: 50% 50%;
+    background-size: cover;
+     /* cursor: none; */
+    position: absolute;
+    width: 100%;
+    height: 130vh;
+    /* background-color:; */
+    left: 0;
+    top: 0;
+    right: auto;
+    bottom: auto;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.bubble {
+    transform-style: preserve-3d;
+    position: relative;
+    left: 0;
+    top: 0;
+    right: auto;
+    bottom: auto;
+    z-index: 2;
+    overflow: hidden;
+    width: 100vw;
+    height: 1500px;
+    /* margin-top: -15vw; */
+    /* margin-left: -15vw; */
+    perspective-origin: 50% 50%;
+    transform-origin: 50% 50%;
+}
+
+.floaty {
+    transform-style: preserve-3d;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    display: flex;
+      /* margin-top: 15vw; */
+      /* margin-left: 15vw; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(text-1.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    perspective-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 130vh;
+    font-family: Montserrat,sans-serif;
+    background-position: 50% 50%;
+}
