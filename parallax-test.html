@@ -13,7 +13,6 @@
     <div class="floaty_pixel">
         <div class="bubble">
             <div class="floaty">
-
             </div>
         </div>
     </div>
@@ -22,9 +21,23 @@
 const bubble = document.querySelector('.bubble');
 const bubbleImg = document.querySelector('.floaty');
 
+let yMousePos = 0;
+let lastScrolledTop = 0;
+const moveBubble = (e) => {
+    yMousePos = e.pageY;
+    bubble.style.transform = `translate3d(0, ${yMousePos}px, 0) scale3d(1, 1, 1)`; 
+    bubbleImg.style.transform = `translate3d(0, -${yMousePos}px, 0) scale3d(1, 1, 1)`;
+}
 
-document.addEventListener('mousemove', (e) => {
-    bubble.style.transform = `translate3d(0, ${e.pageY}px, 0) scale3d(1, 1, 1)`; 
-    bubbleImg.style.transform = `translate3d(0, -${e.pageY }px, 0) scale3d(1, 1, 1)`;
+document.addEventListener('mousemove', moveBubble)
+document.addEventListener('scroll', e => {
+    const newScrollTop = e.target.scrollingElement.scrollTop;
+    if (newScrollTop !== lastScrolledTop) {
+        yMousePos -= lastScrolledTop;
+        lastScrolledTop = newScrollTop;
+        yMousePos += lastScrolledTop;
+    }
+    bubble.style.transform = `translate3d(0, ${yMousePos}px, 0) scale3d(1, 1, 1)`; 
+    bubbleImg.style.transform = `translate3d(0, -${yMousePos}px, 0) scale3d(1, 1, 1)`;
 })
 </script>

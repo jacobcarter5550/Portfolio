@@ -66,6 +66,7 @@ h1:hover ~ #cursor{
 .nav_container{
     display: flex;
     position: absolute;
+    z-index: 3;
 }
 
 .nav_rightside{
@@ -78,8 +79,8 @@ h1:hover ~ #cursor{
     position: absolute;
     width: 110px;
     height: 105.47px;
-    left: 51px;
-    top: 15px;
+    left: 3.47vw;
+    top: 4.87vh;
 }
 
 .logo_nav_fix img{
@@ -130,6 +131,6 @@ h1:hover ~ #cursor{
     width: 60px;
     height: 37px;
     left: 85.9vw;
-    top: 40px;
+    top: 7.25vh;
 
 }

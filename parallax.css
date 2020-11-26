@@ -44,6 +44,7 @@
     justify-content: center;
     align-items: center;
     background-image: url(text-1.JPG);
+    -webkit-mask-image: -webkit-linear-gradient(top, rgba(0, 0, 0, .5), rgba(0, 0, 0, 1));
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: scroll;

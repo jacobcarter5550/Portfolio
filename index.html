@@ -4,27 +4,90 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Texturina:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="parallax.css">
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="container">
-        <!-- background -->
-        <div class="body-background" style="background-image: url(20201121-010158.png)">
-        </div>
-        <!--loader-->
-        <!--nav_bar-->
-        <div class="nav-wrapper">
-            <div class="nav-leftside">
-
+    <!--nav-->
+    <div class="nav_container">
+        <div class="nav_bar">
+            <div class="nav_rightside">
+                <div id="nav_arrow">
+                    <img src="assets/Vector.svg" alt="">
+                </div>
+                <div class="nav_wrapper">
+                    <p id="about">About</p>
+                </div>
+                <div class="nav_wrapper">
+                    <p id="contact">Contact</p>
+                </div>
+                <div id="nav_holo">
+                    <img src="assets/nav_holo.svg" alt="">
+                </div>
             </div>
-            <div class="nav-rightside">
-                <h2>helloworld</h2>            </div>
-        
+            <div class="logo_nav_fix">
+                <img src="assets/Asset 3.svg" alt="">
+            </div>
+            
         </div>
-
-        <!--body-->
     </div>
+    <!--nav-->
+
+    <!--body-->
+
+    <!--body-->
+
+    <!--background-->
+    <div class="floaty_pixel">
+        <div class="bubble">
+            <div class="floaty">
+            </div>
+        </div>
+    </div>
+    <!--background-->
 </body>
+    <script type="text/javascript">
+        // cursor
+        function setNewImage(){
+            document.getElementById
+        }
+        var cursor = document.getElementById(
+        'cursor');
+    document.addEventListener('mousemove'
+        , function(e){
+        var x = e.clientX;
+        var y = e.clientY;
+    cursor.style.left = x + "px";
+    cursor.style.top = y + "px";
+        });
+        // cursor
+        // 
+        // fade
+        const bubble = document.querySelector('.bubble');
+const bubbleImg = document.querySelector('.floaty');
+
+let yMousePos = 0;
+let lastScrolledTop = 0;
+const moveBubble = (e) => {
+    yMousePos = e.pageY;
+    bubble.style.transform = `translate3d(0, ${yMousePos}px, 0) scale3d(1, 1, 1)`; 
+    bubbleImg.style.transform = `translate3d(0, -${yMousePos}px, 0) scale3d(1, 1, 1)`;
+}
+
+document.addEventListener('mousemove', moveBubble)
+document.addEventListener('scroll', e => {
+    const newScrollTop = e.target.scrollingElement.scrollTop;
+    if (newScrollTop !== lastScrolledTop) {
+        yMousePos -= lastScrolledTop;
+        lastScrolledTop = newScrollTop;
+        yMousePos += lastScrolledTop;
+    }
+    bubble.style.transform = `translate3d(0, ${yMousePos}px, 0) scale3d(1, 1, 1)`; 
+    bubbleImg.style.transform = `translate3d(0, -${yMousePos}px, 0) scale3d(1, 1, 1)`;
+})
+// fade
+    </script>
+
 </html>
