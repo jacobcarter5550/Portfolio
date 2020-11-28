@@ -61,7 +61,7 @@ h1:hover ~ #cursor{
     }
 }
 
-/* actual cody start */
+/* actual body start */
 
 .nav_container{
     display: flex;
@@ -133,4 +133,95 @@ h1:hover ~ #cursor{
     left: 85.9vw;
     top: 7.25vh;
 
+}
+
+#photography{
+    position: absolute;
+    left: 3.125vw;
+    top: 30.4vh;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+
+#videography{
+    position: absolute;
+    left: 3.125vw;
+    top: 38.4vh;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+#web{
+    position: absolute;
+    left: 3.125vw;
+    top: 46.3vh;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+#design{
+    position: absolute;
+    left: 3.125vw;
+    top: 54.2vh;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+#writing{
+    position: absolute;
+    left: 3.125vw;
+    top: 62.1vh;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+#art{
+    position: absolute;
+    left: 3.125vw;
+    top: 70.1vh;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.nav_holo_long{
+    position: absolute;
+    left: 2.5vw;
+    top: 75.7vh;
+}
+
+.nav_dot{
+    position: absolute;
+    left: 6.3vw;
+    top: 25vh;
+}
+
+/* body style */
+
+.body_rectangle{
+    position: absolute;
+    width: 100vw;
+    height: auto;
+    left: 0px;
+    top: 125.9vh;
+    background: #E3B76D;
 }
