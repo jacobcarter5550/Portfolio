@@ -75,7 +75,7 @@ h1:hover ~ #cursor{
     padding: 50px;
 }
 
-.logo_nav_fix{
+.nav_logo{
     position: absolute;
     width: 110px;
     height: 105.47px;
@@ -83,7 +83,7 @@ h1:hover ~ #cursor{
     top: 4.87vh;
 }
 
-.logo_nav_fix img{
+.nav_logo img{
     /* size: 110px, 105.47px; */
     width: 100%;
 }
@@ -101,7 +101,7 @@ h1:hover ~ #cursor{
     width: 92px;
     height: 30px;
     left: 68.8vw;
-    top: 5.30vh;
+    top: 7.9vh;
     font-family: Raleway;
     font-style: normal;
     font-weight: normal;
@@ -109,6 +109,9 @@ h1:hover ~ #cursor{
     line-height: 28px;
     text-align: center;
     color: #000000;
+    text-decoration: none;
+    margin: 0px;
+
 }
 
 #contact{
@@ -116,7 +119,7 @@ h1:hover ~ #cursor{
     width: 92px;
     height: 30px;
     left: 78.6vw;
-    top: 5.30vh;
+    top: 7.9vh;
     font-family: Raleway;
     font-style: normal;
     font-weight: normal;
@@ -124,6 +127,7 @@ h1:hover ~ #cursor{
     line-height: 28px;
     text-align: center;
     color: #000000;
+    text-decoration: none;
 }
 
 #nav_holo{
@@ -145,6 +149,7 @@ h1:hover ~ #cursor{
     font-size: 24px;
     line-height: 28px;
     color: #000000;
+    text-decoration: none;
 }
 
 #videography{
@@ -157,17 +162,19 @@ h1:hover ~ #cursor{
     font-size: 24px;
     line-height: 28px;
     color: #000000;
+    text-decoration: none;
 }
 #web{
     position: absolute;
     left: 3.125vw;
-    top: 46.3vh;
+    top: 49.22vh;
     font-family: Raleway;
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
     line-height: 28px;
     color: #000000;
+    text-decoration: none;
 }
 #design{
     position: absolute;
@@ -179,6 +186,7 @@ h1:hover ~ #cursor{
     font-size: 24px;
     line-height: 28px;
     color: #000000;
+    text-decoration: none;
 }
 #writing{
     position: absolute;
@@ -190,6 +198,7 @@ h1:hover ~ #cursor{
     font-size: 24px;
     line-height: 28px;
     color: #000000;
+    text-decoration: none;
 }
 #art{
     position: absolute;
@@ -201,6 +210,7 @@ h1:hover ~ #cursor{
     font-size: 24px;
     line-height: 28px;
     color: #000000;
+    text-decoration: none;
 }
 
 .nav_holo_long{
@@ -220,8 +230,73 @@ h1:hover ~ #cursor{
 .body_rectangle{
     position: absolute;
     width: 100vw;
-    height: auto;
+    height: 50vh;
     left: 0px;
     top: 125.9vh;
     background: #E3B76D;
+}
+
+.down_arrow{
+    position: absolute;
+    width: 150px;
+    height: 78px;
+    left: 44.7vw ;
+    top: 94.6vh;
+    z-index: 2;
+}
+
+.body_name_para{
+    position: absolute;
+    left: 35vw;
+    top: 150vh;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 59px;
+/* identical to box height */
+    text-align: center;
+    color: #000000;
+    z-index: 2;
+}
+
+#para_white{ 
+    color: #ffffff;
+}
+
+.connect_para_back{
+    position: absolute;
+    width: 1440px;
+    height: 627px;
+    left: 0px;
+    top: 182.667vh;
+    background: #FFFFFF;
+}
+
+.body_connect_para{
+    position: absolute;
+    width: 886px;
+    height: 470px;
+    left: 27vw;
+    top: 190.133vh;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 47px;
+    text-align: center;
+    color: #000000;
+    z-index: 2;
+}
+
+.clkd_arow{
+    display: none;
+}
+
+.clkd_long{
+    display: none;
+}
+
+#button{
+    cursor: pointer;
 }

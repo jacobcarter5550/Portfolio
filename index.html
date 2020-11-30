@@ -3,36 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Home_Sweet_Home</title>
     <link rel="stylesheet" href="parallax.css">
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="assets/Asset 3.svg">
+    <script defer src="node_modules/swup/dist/swup.min.js"></script>
+    <script defer src="script.js"></script>
+    
 </head>
 <body>
     <!--nav-->
     <div class="nav_container">
         <div class="nav_bar">
+            <div class="nav_clicks">
+                <div class="nav_un_clkd">
+                    <div id="nav_arrow">
+                        <a id="button">
+                            <img src="assets/Vector.svg" alt="">
+                        </a>
+                    </div>
+                    <div class="nav_holo_long">
+                        <img src="assets/long_nav_holo.svg" alt="">
+                    </div>
+                    <div class="nav_dot">
+                        <img src="assets/nav_dot.svg" alt="">
+                    </div>
+                    <div id="nav_holo">
+                        <img src="assets/nav_holo.svg" alt="">
+                    </div>
+                </div>
+                <div class="nav_clkd">
+                    <div class="clkd_long">
+                        <img src="assets/clkd_long.svg" alt="">
+                    </div>
+                    <div class="clkd_arow">
+                        <a id="clkd_button">
+                            <img src="assets/clkd_arow.svg" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
             <div class="nav_rightside">
-                <div id="nav_arrow">
-                    <img src="assets/Vector.svg" alt="">
+                <div class="nav_wrapper">
+                    <a href="about.html" id="about">About</a>
                 </div>
                 <div class="nav_wrapper">
-                    <p id="about">About</p>
-                </div>
-                <div class="nav_wrapper">
-                    <p id="contact">Contact</p>
-                </div>
-                <div id="nav_holo">
-                    <img src="assets/nav_holo.svg" alt="">
+                    <a href="contact.html" id="contact">Contact</a>
                 </div>
             </div>
             <div class="nav_leftside">
-                <div class="logo_nav_fix">
+                <div class="nav_logo">
                     <img src="assets/Asset 3.svg" alt="">
-                </div>
-                <div class="nav_dot">
-                    <img src="assets/nav_dot.svg" alt="">
                 </div>
                 <div class="nav_wrapper">
                     <p id="photography">Photography</p>
@@ -41,9 +64,9 @@
                     <p id="videography">Videography</p>
                 </div>
                 <div class="nav_wrapper">
-                    <p id="web">Web/UI/UX</p>
+                    <a href="web.html" id="web">WEB/UI/UX</a>
                 </div>
-                <div class="Design">
+                <div class="nav_wrapper">
                     <p id="design">Design</p>
                 </div>
                 <div class="nav_wrapper">
@@ -52,27 +75,32 @@
                 <div class="nav_wrapper">
                     <p id="art">Art</p>
                 </div>
-                <div class="nav_holo_long">
-                    <img src="assets/long_nav_holo.svg" alt="">
-                </div>
             </div>
         </div>
     </div>
-    <!--nav-->
-
+<!----------------------------------------------------------->
     <!--body-->
-    <div class="body_container">
-        <div class="body_rectangle">
+    <main id="swup" class="transition_fade">
+        <div class="body_container">
+            <div class="down_arrow">
+                <img src="assets/down_arrowe.svg" alt="">
+            </div>
+            <div class="body_rectangle">
+            </div>
+            <div class="body_name_para">
+                <p>My name is <span id="para_white">Jacob Carter</span></p>
+            </div>
+            <div class="body_connect_para">
+                <p>I connect with people through visuals, whether it’s through stealing a moment from time, creating a beautiful platform, or reliving the perfect party, 
+                <br>
+                <br>
+                I believe the quickest way to evoke emotion and move the soul is by giving someone something to look at.</p>
+            </div>
+            <div class="connect_para_back">
+            </div>
         </div>
-        <div class="body_name_para">
-            <p></p>
-        </div>
-        <div class="body_connect_para">
-            <p></p>
-        </div>
-    </div>
-    <!--body-->
-
+    </main>
+<!----------------------------------------------------------->
     <!--background-->
     <div class="floaty_pixel">
         <div class="bubble">
@@ -80,9 +108,8 @@
             </div>
         </div>
     </div>
-    <!--background-->
 </body>
-    <script type="text/javascript">
+<script type="text/javascript">
         // --cursor
         function setNewImage(){
             document.getElementById
@@ -96,8 +123,7 @@
     cursor.style.left = x + "px";
     cursor.style.top = y + "px";
         });
-        // cursor--
-        // 
+//----------------------------------------------------------- 
         // --fade
         const bubble = document.querySelector('.bubble');
 const bubbleImg = document.querySelector('.floaty');
@@ -121,7 +147,11 @@ document.addEventListener('scroll', e => {
     bubble.style.transform = `translate3d(0, ${yMousePos}px, 0) scale3d(1, 1, 1)`; 
     bubbleImg.style.transform = `translate3d(0, -${yMousePos}px, 0) scale3d(1, 1, 1)`;
 })
-// fade--
-    </script>
+//------------------------------------------------------------
+        //--arrow animate out 
+</script>
+
+<script>
+</script>
 
 </html>
