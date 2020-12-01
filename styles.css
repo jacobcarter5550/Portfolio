@@ -289,14 +289,20 @@ h1:hover ~ #cursor{
     z-index: 2;
 }
 
-.clkd_arow{
+.nav_clkd{
     display: none;
 }
 
+.clkd_arow{
+    z-index: 2;
+}
+
 .clkd_long{
-    display: none;
+    z-index: 2;
 }
 
 #button{
     cursor: pointer;
 }
+
+
