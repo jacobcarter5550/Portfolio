@@ -225,6 +225,10 @@ h1:hover ~ #cursor{
     top: 25vh;
 }
 
+#clkd_button{
+    cursor: pointer;
+}
+
 /* body style */
 
 .body_rectangle{
@@ -295,14 +299,125 @@ h1:hover ~ #cursor{
 
 .clkd_arow{
     z-index: 2;
+    position: absolute;
+    width: 23px;
+    height: 100%;
+    left: 87.9vw;
+    top: 7.25vh;
+    border: 3px #E3B76D;
 }
 
 .clkd_long{
     z-index: 2;
+    position: absolute;
+    left: 2.5vw;
+    top: 77.7vh;
+    width: 155.71px;
+    height: 100%;
 }
 
 #button{
     cursor: pointer;
 }
 
+.aboutshit{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-color: #000000;
+}
 
+
+/* about--------------------------------------------------------------------- */
+.aboutBody{
+    position:a
+}
+
+.aboutTile{
+left: 0px;
+top: 0px;
+background: url(IMG_0227_2.jpg);
+}
+
+.aboutTile img{
+    width: 100vw;
+}
+
+.aboutWords{
+    background-color: white;
+    width: 100vw;
+    height: 70vh;
+    margin: 0em;
+}
+
+#premiereTile{
+    background-color: #E3B76D;
+    position: absolute;
+    width: 374px;
+    height: 68px;
+    top: 125.1vh;
+    left: 63.2vw;
+}
+
+#premiereTile p{
+    font-size: 45px;
+    margin-top: 20px;
+    margin-bottom: 0em;
+}
+#lightroomTile{
+    background-color: #E3B76D;
+    position: absolute;
+    width: 309px;
+    height: 64px;
+    left: 13.625vw;
+    top: 130vh;
+}
+
+#javascriptTile{
+    position: absolute;
+    background-color: #000000;
+    width: 309px;
+    height: 64px;
+    left: 46vw;
+    top: 136vh;;
+}
+
+#photoshopTile{
+    position: absolute;
+    background-color: #E3B76D;
+    width: 309px;
+    height: 70px;
+    left: 50vw;
+    top: 150vh;
+}
+
+#illustratorTile{
+    position: absolute;
+    background-color: #000000;
+    width: 253px;
+    height: 68px;
+    left: 17vw;
+    top: 175vh;
+}
+
+.aboutDescrip{
+    background-color: black;
+    width: 100vw;
+    height: 113.733vh;
+    margin-top: 0em;
+}
+
+.aboutDescrip p{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 47px;
+    text-align: center;
+    width: 886px;
+    height: 705px;
+    color: #FFFFFF;
+    margin-left: 26.92%;
+    padding-top: 10%;
+    margin-top: 0em;
+}
