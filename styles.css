@@ -294,7 +294,12 @@ h1:hover ~ #cursor{
 }
 
 .nav_clkd{
-    display: none;
+    opacity: 0;
+    transition: all 1s;
+}
+
+.opened-right-arrow {
+    opacity: 1;
 }
 
 .clkd_arow{
@@ -333,10 +338,21 @@ h1:hover ~ #cursor{
     position:a
 }
 
-.aboutTile{
-left: 0px;
-top: 0px;
-background: url(IMG_0227_2.jpg);
+.aboutHead div{
+    position: absolute;
+}
+
+.aboutHeadTile{
+    position: absolute;
+    background-color: #E3B76D;
+    width: 100vw;
+    height: 105.7vh;
+}
+
+.tileRectangle1{
+    background-color:#ffffff;
+    width: 16.1vw;
+    
 }
 
 .aboutTile img{
@@ -355,11 +371,12 @@ background: url(IMG_0227_2.jpg);
     position: absolute;
     width: 374px;
     height: 68px;
-    top: 125.1vh;
+    top: 120.1vh;
     left: 63.2vw;
 }
 
 #premiereTile p{
+    color: #ffffff;
     font-size: 45px;
     margin-top: 20px;
     margin-bottom: 0em;
@@ -373,6 +390,13 @@ background: url(IMG_0227_2.jpg);
     top: 130vh;
 }
 
+#lightroomTile p{
+    color: #ffffff;
+    font-size: 45px;
+    margin-top: -5px;
+    margin-bottom: 0px;
+}
+
 #javascriptTile{
     position: absolute;
     background-color: #000000;
@@ -380,6 +404,13 @@ background: url(IMG_0227_2.jpg);
     height: 64px;
     left: 46vw;
     top: 136vh;;
+}
+
+#javascriptTile p{
+    color: #E3B76D;
+    font-size: 45px;
+    margin-left: 5px;
+    margin-top: 2px;
 }
 
 #photoshopTile{
@@ -391,13 +422,26 @@ background: url(IMG_0227_2.jpg);
     top: 150vh;
 }
 
+#photoshopTile p{
+    font-size: 45px;
+    margin-left: 5vw;
+    margin-top: 2vh;
+}
+
 #illustratorTile{
     position: absolute;
     background-color: #000000;
     width: 253px;
     height: 68px;
     left: 17vw;
-    top: 175vh;
+    top: 163vh;
+}
+
+#illustratorTile p{
+    color: #ffffff;
+    font-size: 45px;
+    margin-left: 3vw;
+    margin-top: 0em;
 }
 
 .aboutDescrip{

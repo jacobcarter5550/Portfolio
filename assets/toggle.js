@@ -1,6 +1,10 @@
 console.log('hell0')
 
-const unClkd = document.querySelector('.nav_un_clkd');
+// const unClkd = document.querySelector('.nav_un_clkd');
+
+const unClkdArrow = document.getElementById('nav_arrow')
+
+const unClkdBall = document.getElementById('ball')
 
 const clkd = document.querySelector('.nav_clkd');
 
@@ -10,11 +14,15 @@ let open = true;
 function toggle(){
     console.log('hello')
     if (open){
-        clkd.style.display = 'block';
-        unClkd.style.display = 'none';
+        unClkdArrow.classList.add('closed-arrow')
+        unClkdBall.classList.add('closed-ball')
+        clkd.classList.add('opened-right-arrow')
+
     } else {
-        clkd.style.display = 'none';
-        unClkd.style.display = 'block';
+        unClkdArrow.classList.remove('closed-arrow')
+        unClkdBall.classList.remove('closed-ball')
+        clkd.classList.remove('opened-right-arrow')
+        // unClkdArrow.style.display = 'block';
     }
     open = !open
 }
