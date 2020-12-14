@@ -69,11 +69,19 @@ h1:hover ~ #cursor{
     z-index: 3;
 }
 
-.nav_rightside{
+.nav_rightside {
+    position: absolute;
     display: flex;
     justify-content: space-between;
-    padding: 50px;
-}
+    /* padding: 50px; */
+    overflow: hidden;
+    left: 67vw;
+    top: 7.2vh;
+    width: 20vw;
+    height: 10vh;
+    padding: 0em;
+    }
+    
 
 .nav_logo{
     position: absolute;
@@ -96,7 +104,7 @@ h1:hover ~ #cursor{
     border: 3px #E3B76D;
 }
 
-#about{
+/* #about{
     position: absolute;
     width: 92px;
     height: 30px;
@@ -112,9 +120,9 @@ h1:hover ~ #cursor{
     text-decoration: none;
     margin: 0px;
 
-}
+} */
 
-#contact{
+/* #contact{
     position: absolute;
     width: 92px;
     height: 30px;
@@ -128,18 +136,18 @@ h1:hover ~ #cursor{
     text-align: center;
     color: #000000;
     text-decoration: none;
-}
+} */
 
-#nav_holo{
+/* #nav_holo{
     position: absolute;
     width: 60px;
     height: 37px;
     left: 85.9vw;
     top: 7.25vh;
 
-}
+} */
 
-#photography{
+/* #photography{
     position: absolute;
     left: 3.125vw;
     top: 30.4vh;
@@ -150,9 +158,9 @@ h1:hover ~ #cursor{
     line-height: 28px;
     color: #000000;
     text-decoration: none;
-}
+} */
 
-#videography{
+/* #videography{
     position: absolute;
     left: 3.125vw;
     top: 38.4vh;
@@ -163,8 +171,8 @@ h1:hover ~ #cursor{
     line-height: 28px;
     color: #000000;
     text-decoration: none;
-}
-#web{
+} */
+/* #web{
     position: absolute;
     left: 3.125vw;
     top: 49.22vh;
@@ -175,8 +183,8 @@ h1:hover ~ #cursor{
     line-height: 28px;
     color: #000000;
     text-decoration: none;
-}
-#design{
+} */
+/* #design{
     position: absolute;
     left: 3.125vw;
     top: 54.2vh;
@@ -187,8 +195,8 @@ h1:hover ~ #cursor{
     line-height: 28px;
     color: #000000;
     text-decoration: none;
-}
-#writing{
+} */
+/* #writing{
     position: absolute;
     left: 3.125vw;
     top: 62.1vh;
@@ -199,8 +207,8 @@ h1:hover ~ #cursor{
     line-height: 28px;
     color: #000000;
     text-decoration: none;
-}
-#art{
+} */
+/* #art{
     position: absolute;
     left: 3.125vw;
     top: 70.1vh;
@@ -211,23 +219,8 @@ h1:hover ~ #cursor{
     line-height: 28px;
     color: #000000;
     text-decoration: none;
-}
+} */
 
-.nav_holo_long{
-    position: absolute;
-    left: 2.5vw;
-    top: 75.7vh;
-}
-
-.nav_dot{
-    position: absolute;
-    left: 6.3vw;
-    top: 25vh;
-}
-
-#clkd_button{
-    cursor: pointer;
-}
 
 /* body style */
 
@@ -293,38 +286,6 @@ h1:hover ~ #cursor{
     z-index: 2;
 }
 
-.nav_clkd{
-    opacity: 0;
-    transition: all 1s;
-}
-
-.opened-right-arrow {
-    opacity: 1;
-}
-
-.clkd_arow{
-    z-index: 2;
-    position: absolute;
-    width: 23px;
-    height: 100%;
-    left: 87.9vw;
-    top: 7.25vh;
-    border: 3px #E3B76D;
-}
-
-.clkd_long{
-    z-index: 2;
-    position: absolute;
-    left: 2.5vw;
-    top: 77.7vh;
-    width: 155.71px;
-    height: 100%;
-}
-
-#button{
-    cursor: pointer;
-}
-
 .aboutshit{
     position: absolute;
     width: 100vw;
@@ -338,8 +299,23 @@ h1:hover ~ #cursor{
     position:a
 }
 
+.aboutSmall{
+    width: 100vw;
+    height: 48vh;
+    background-color: white;
+}
+
+.aboutHead{
+    width: 100vw;
+    height: 105.7vh;
+}
+
 .aboutHead div{
     position: absolute;
+}
+
+.aboutHeadPic img{
+    width: 70vw;
 }
 
 .aboutHeadTile{
@@ -465,3 +441,6 @@ h1:hover ~ #cursor{
     padding-top: 10%;
     margin-top: 0em;
 }
+
+/* Text Changing––––––––––––––––––––––– */
+

@@ -6,11 +6,11 @@
     <title>Home_Sweet_Home</title>
     <link rel="stylesheet" href="parallax.css">
     <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="stylesheet" href="test.css">
+    <link rel="stylesheet" href="nav.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
     <link rel="shortcut icon" type="image/png" href="assets/Asset 3.svg">
-    <!-- <script defer src="node_modules/swup/dist/swup.min.js"></script> -->
     <script defer src="assets/script.js"></script>
     <script defer src="assets/toggle.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swup@1.0.4/dist/swup.min.js"></script>
@@ -18,67 +18,69 @@
 <body id="bod">
     <!--nav-->
     <div class="nav_container">
-    <div class="nav_bar">
-        <div class="nav_clicks">
-            <div class="nav_un_clkd">
-                <div id="nav_arrow" class="opened">
-                    <a id="button">
-                        <img src="assets/Vector.svg" alt="">
-                    </a>
+        <div class="nav_bar">
+            <div class="nav_clicks">
+                <div class="nav_un_clkd">
+                    <div id="nav_arrow" class="opened">
+                        <a id="button">
+                            <img src="assets/Vector.svg" alt="">
+                        </a>
+                    </div>
                 </div>
-                <div class="nav_holo_long">
-                    <img src="assets/long_nav_holo.svg" alt="">
+                <div class="nav_clkd">
+                    <div class="clkd_arow">
+                        <a id="clkd_button">
+                            <img src="assets/clkd_arow.svg" alt="">
+                        </a>
+                    </div>
                 </div>
-                <div id="ball" class="nav_dot opened">
-                    <img src="assets/nav_dot.svg" alt="">
+            </div>
+            <div class="nav_logo">
+                <img src="assets/Asset 3.svg" alt="">
+            </div>
+            <div class="nav_rightside">
+                <div class="navWrapperAbout opened">
+                    <a href="about.html" id="about">About</a>
+                </div>
+                <div class="navWrapperContact opened">
+                    <a href="contact.html" id="contact">Contact</a>
                 </div>
                 <div id="nav_holo">
                     <img src="assets/nav_holo.svg" alt="">
                 </div>
             </div>
-            <div class="nav_clkd">
-                <div class="clkd_long">
+            <div class="nav_leftside">
+                <div id="ball" class="nav_dot opened">
+                    <img src="assets/nav_dot.svg" alt="">
+                </div>
+                <div class="navItems">
+                    <div class="navPhoto">
+                    <p id="photography">Photography</p>
+                    </div>
+                    <div class="navVid">
+                        <p id="videography">Videography</p>
+                    </div>
+                    <div class="navWeb">
+                        <a href="web.html" id="web">WEB/UI/UX</a> 
+                    </div>
+                    <div class="navDesi">
+                        <p id="design">Design</p>
+                    </div>
+                    <div class="navWrit">
+                        <p id="writing">Writing</p>
+                    </div>
+                    <div class="navArt">
+                        <p id="art">Art</p>
+                    </div>
+                </div>
+                <div class="nav_holo_long">
+                    <img src="assets/long_nav_holo.svg" alt="">
+                </div>
+                    <div class="default clkd_long">
                     <img src="assets/clkd_long.svg" alt="">
-                </div>
-                <div class="clkd_arow">
-                    <a id="clkd_button">
-                        <img src="assets/clkd_arow.svg" alt="">
-                    </a>
-                </div>
+                    </div>
             </div>
         </div>
-        <div class="nav_rightside">
-            <div class="nav_wrapper">
-                <a href="about.html" id="about">About</a>
-            </div>
-            <div class="nav_wrapper">
-                <a href="contact.html" id="contact">Contact</a>
-            </div>
-        </div>
-        <div class="nav_leftside">
-            <div class="nav_logo">
-                <img src="assets/Asset 3.svg" alt="">
-            </div>
-            <div class="nav_wrapper">
-                <p id="photography">Photography</p>
-            </div>
-            <div class="nav_wrapper">
-                <p id="videography">Videography</p>
-            </div>
-            <div class="nav_wrapper">
-                <a href="web.html" id="web">WEB/UI/UX</a> 
-            </div>
-            <div class="nav_wrapper">
-                <p id="design">Design</p>
-            </div>
-            <div class="nav_wrapper">
-                <p id="writing">Writing</p>
-            </div>
-            <div class="nav_wrapper">
-                <p id="art">Art</p>
-            </div>
-        </div>
-    </div>
     </div>
     <!----------------------------------------------------------->
 </body>

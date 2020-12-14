@@ -1,21 +1,4 @@
-.opened {
-    transition: all 1s;
-}
-
-.closed-arrow {
-    opacity: 0%;
-    transform: translateX(23vw);
-
-}
-
-
-.closed-ball {
-    opacity: 0%;
-    transform: translateY(70vh);
-}
-
-
 
 #bod {
-    background-color: blue;
+    background-color: #BFD0E0;
 }

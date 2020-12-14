@@ -1,0 +1,260 @@
+.nav_container{
+    display: flex;
+    position: absolute;
+    z-index: 3;
+}
+
+.nav_logo{
+    position: absolute;
+    width: 110px;
+    height: 105.47px;
+    left: 3.47vw;
+    top: 4.87vh;
+}
+
+.nav_logo img{
+    width: 100%;
+}
+#button{
+    cursor: pointer;
+}
+
+#clkd_button{
+    cursor: pointer;
+}
+
+body {
+    font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+}
+
+/* Leftside–––––––––––––––––––––––––––– */
+
+.nav_leftside{
+    position: absolute;
+    display: table-column;
+    overflow: hidden;
+    width: 160px;
+    top: 25vh;
+    left: 3vw;
+}
+
+.navItems{
+    padding-left: .5vw;
+}
+
+.nav_dot{
+    padding-left: 45%;
+}
+
+.clkd_long{
+    z-index: 2;
+    position: relative;
+    top: -4.3vh;
+    width: 155.71px;
+}
+
+#photography{
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    text-decoration: none;
+}
+
+#videography{
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    text-decoration: none;
+}
+
+#web{
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    text-decoration: none;
+}
+
+#design{
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    text-decoration: none;
+}
+
+#writing{
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    text-decoration: none;
+}
+
+#art{
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    text-decoration: none;
+}
+
+/* Rightside––––––––––––––––––––––––––– */
+
+.nav_rightside {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    left: 67vw;
+    top: 7.2vh;
+    height: 37px;
+    padding: 0em;
+}
+
+.navWrapperAbout{
+    display: inline-block;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+
+.navWrapperContact{
+    display: inline-block;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+
+/* .nav_wrapper a{
+    font-size: calc(
+        24px + (26 - 14) *
+        (
+            (100vw - 300px)/
+            (1600vw - 300px)
+        )
+    )
+    !important;
+} */
+
+.arrow-container{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    left: 67vw;
+    top: 7.2vh;
+    height: 37px;
+}
+
+.clkd_arow{
+    padding-left: 286px;
+    z-index: 2;
+    width: 23px;
+    height: 100%;
+    left: 90vw;
+    top: 7.2vh;
+    border: 3px #E3B76D;
+}
+
+.clkd_arow img{
+    height: 37px;
+}
+
+#nav_arrow img:before,
+#nav_arrow img:after{
+    position: absolute;
+    left: 64.1vw;
+    top: 7.75vh;
+    bottom: 97.12%;
+    border: 3px #E3B76D;
+}
+
+
+
+#nav_holo{
+height: 37px;
+}
+
+#about{
+    font-family: Raleway;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #000000;
+    text-decoration: none;
+    margin: 0px;
+}
+
+#contact{
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #000000;
+    text-decoration: none;
+    margin: 0px;
+}
+
+.links{
+    padding-left: 20%;
+}
+
+/* animations–––––––––––––––––––––––––– */
+
+.opened {
+    transition: all 1s;
+}
+
+.closed-arrow {
+    opacity: 0%;
+    transform: translateX(23vw);
+}
+
+.closed-ball {
+    opacity: 0%;
+    transform: translateY(60vh);
+    transition: all 1.2s;
+}
+
+.leftAni{
+    opacity: 0;
+    transform: translateY(80vh);
+    transition: all 1.2s;
+}
+.closedAni{
+    opacity: 1;
+    transition: all 1.2s;
+}
+
+.nav_clkd{
+    opacity: 0;
+    transition: all 1s;
+}
+
+.opened-right-arrow {
+    opacity: 1;
+}
+
+.rightAni{
+    opacity: 0%;
+    transform: translateX(40vw);
+}
+
+.navAni{
+    opacity: 0;
+    transition: all 1s;
+}
+
+.logoAni{
+    opacity: 1;
+    transition: all 1s;
+}
+
+.arrowZ .clck_arow{
+    z-index: 2;
+}
+
+.default{
+    opacity: 0;
+}
+
+.fixedMenu{
+    position: fixed;
+}
+
+.downArrowOpac{
+    opacity: 0;
+}
