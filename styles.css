@@ -225,12 +225,16 @@ h1:hover ~ #cursor{
 /* body style */
 
 .body_rectangle{
-    position: absolute;
+    display: flex;
+    align-items: center;
     width: 100vw;
     height: 50vh;
-    left: 0px;
-    top: 125.9vh;
     background: #E3B76D;
+}
+
+.body_placeholder{
+    width: 100%;
+    height: 130vh;
 }
 
 .down_arrow{
@@ -243,9 +247,7 @@ h1:hover ~ #cursor{
 }
 
 .body_name_para{
-    position: absolute;
-    left: 35vw;
-    top: 150vh;
+    margin-left: calc((100vw / 2) - 283.5px);
     font-family: Raleway;
     font-style: normal;
     font-weight: normal;
@@ -261,21 +263,10 @@ h1:hover ~ #cursor{
     color: #ffffff;
 }
 
-.connect_para_back{
-    position: absolute;
-    width: 1440px;
-    height: 627px;
-    left: 0px;
-    top: 182.667vh;
-    background: #FFFFFF;
-}
-
 .body_connect_para{
-    position: absolute;
-    width: 886px;
+    display: flex;
+    margin-left: calc((100vw / 2) - 22.5vw);
     height: 470px;
-    left: 27vw;
-    top: 190.133vh;
     font-family: Raleway;
     font-style: normal;
     font-weight: normal;
@@ -284,6 +275,10 @@ h1:hover ~ #cursor{
     text-align: center;
     color: #000000;
     z-index: 2;
+}
+
+.body_connect_para p{
+    width: 45vw;
 }
 
 .aboutshit{
@@ -444,3 +439,158 @@ h1:hover ~ #cursor{
 
 /* Text Changing––––––––––––––––––––––– */
 
+
+
+/* Skills––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.skills-background{
+    width: 100vw;
+    height: 150vh;
+    background-color: #E3B76D;
+    position: absolute;
+    z-index: 0;
+}
+
+.skills-title{
+    z-index: 1;
+    border: 2px solid #000000;
+    position: relative;
+    width: 30vw;
+    height: 12vh;
+    left: calc((100vw / 2) - 15vw);
+    top: 30vh;
+    margin: 0em;
+    border-radius: 3px;
+}
+
+.skills-title p{
+    margin: 5px 0px;
+    left: 50%;
+    text-align: center;
+    padding-top: 3vh;
+    font-size: 40px;
+}
+
+
+.work-grid{
+    display: inline-grid;
+    z-index: 1;
+    position: relative;
+    top: 40vh;
+    left: calc((100vw / 2) - 23vw);
+    grid-gap: 20px;
+}
+
+.box-1{
+    border: 2px solid #000000;
+    width: 47vw;
+    height: 25vh;
+    display: flex;
+    border-radius: 2px;
+}
+
+.box-2{
+    border: 2px solid #000000;
+    width: 47vw;
+    height: 25vh;
+    display: flex;
+    border-radius: 2px;
+}
+.box-3{
+    border: 2px solid #000000;
+    width: 47vw;
+    height: 25vh;
+    display: flex;
+    border-radius: 2px;
+}
+
+h1{
+    font-size: 26px;
+}
+
+.skillsBody p{
+    font-size: 20px;
+}
+
+
+.gridButton{
+    background-color: #000000;
+    color: #E3B76D;
+    border-radius: 5px;
+    font-size: 20px;
+    height: 20px;
+    width: 15vw;
+    text-decoration: none;
+    padding: 10px 200px;
+    margin-left: 40px;
+}
+
+.link-fix{
+    width: 300px;
+}
+
+.box-1 img{
+    padding: 10px;
+    height: 90%;
+    border-radius: 10%;
+}
+.box-2 img{
+    padding: 10px;
+    height: 90%;
+    border-radius: 10%;
+}
+.box-3 img{
+    padding: 10px;
+    height: 90%;
+    border-radius: 10%;
+}
+
+.indie-grid-container{
+    display: block;
+}
+
+
+/* media */
+@media only screen and (max-width: 375px){
+
+#nav_arrow{
+    visibility: hidden;
+    left: 40vw;
+    top: 8.3vh;
+}
+
+#nav_qrrow img{
+    height: 20px;
+}
+
+.down_arrow{
+    position: absolute;
+    height: 78px;
+    margin-left: calc((100vw /2) - 55px);
+    top: 94.6vh;
+    z-index: 2;
+    left: 0px;
+    }
+
+    .down_arrow img{
+    width: 130px;
+}
+
+.body_name_para{
+    margin-left: calc((100vw / 4) - 54.5px);
+    font-size: 25px;
+    line-height: 59px;
+}
+
+.body_connect_para{
+    margin-left: calc((100vw / 2) - 36vw);
+    font-size: 22px;
+    line-height: 35px;
+}
+.body_connect_para p{
+    width: 75vw;
+}
+
+
+
+}

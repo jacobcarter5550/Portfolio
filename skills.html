@@ -84,71 +84,44 @@
         </div>
     </div>
 <!----------------------------------------------------------->
-    <!--body-->
-        <div class="body_container">
-            <div class="down_arrow">
-                <img src="assets/down_arrowe.svg" alt="">
-            </div>
-            <div class="body_placeholder"></div>
-            <div class="body_rectangle">
-                <div class="body_name_para">
-                    <p>My name is <span id="para_white">Jacob Carter</span></p>
-                </div>
-            </div>
-            <div class="body_connect_para">
-                <p>I connect with people through visuals, whether it’s through stealing a moment from time, creating a beautiful platform, or reliving the perfect party, 
-                <br>
-                <br>
-                I believe the quickest way to evoke emotion and move the soul is by giving someone something to look at.</p>
+    <!-- body -->
+    <div class="skillsBody">
+        <div class="skills-background">
+        </div>
+        <div class="skills-title">
+            <p class="my-work">My work</p>
+        </div>
+        <div class="work-grid">
+        <div class="box-1">
+            <img src="assets/pictures/gridPic1.jpg" alt="">
+            <div class="indie-grid-container">
+                <h1>Work Title</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, laboriosam fuga quo voluptates nihil nulla aspernatur dolore consectetur voluptate nesciunt reprehenderit dignissimos ratione aut ducimus?</p>
+                <a class="gridButton" href="">View</a>
             </div>
         </div>
-<!----------------------------------------------------------->
-    <!--background-->
-    <div class="floaty_pixel">
-        <div class="bubble">
-            <div class="floaty">
-            </div>
+        <div class="box-2">
+            <img src="assets/pictures/gridPic2.jpg" alt="">
+            <div class="indie-grid-container">
+                <h1>Work Title</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, laboriosam fuga quo voluptates nihil nulla aspernatur dolore consectetur voluptate nesciunt reprehenderit dignissimos ratione aut ducimus?</p>
+                <div class="link-fix">
+                    <a class="gridButton" href="">View</a>
+                </div>
+                
+        </div>
+            
+        </div>
+        <div class="box-3">
+            <img src="assets/pictures/gridPic3.jpg" alt="">
+            <div class="indie-grid-container">
+                <h1>Work Title</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, laboriosam fuga quo voluptates nihil nulla aspernatur dolore consectetur voluptate nesciunt reprehenderit dignissimos ratione aut ducimus?</p>
+                <a class="gridButton" href="">View</a>
+            </div>  
+        </div>
         </div>
     </div>
+
+
 </body>
-<script type="text/javascript">
-        // --cursor
-        function setNewImage(){
-            document.getElementById
-        }
-        var cursor = document.getElementById(
-        'cursor');
-    document.addEventListener('mousemove'
-        , function(e){
-        var x = e.clientX;
-        var y = e.clientY;
-        cursor.style.left = x + "px";
-        cursor.style.top = y + "px";
-        });
-//----------------------------------------------------------- 
-        // --fade
-        const bubble = document.querySelector('.bubble');
-const bubbleImg = document.querySelector('.floaty');
-
-let yMousePos = 0;
-let lastScrolledTop = 0;
-const moveBubble = (e) => {
-    yMousePos = e.pageY;
-    bubble.style.transform = `translate3d(0, ${yMousePos}px, 0) scale3d(1, 1, 1)`; 
-    bubbleImg.style.transform = `translate3d(0, -${yMousePos}px, 0) scale3d(1, 1, 1)`;
-}
-
-document.addEventListener('mousemove', moveBubble)
-document.addEventListener('scroll', e => {
-    const newScrollTop = e.target.scrollingElement.scrollTop;
-    if (newScrollTop !== lastScrolledTop) {
-        yMousePos -= lastScrolledTop;
-        lastScrolledTop = newScrollTop;
-        yMousePos += lastScrolledTop;
-    }
-    bubble.style.transform = `translate3d(0, ${yMousePos}px, 0) scale3d(1, 1, 1)`; 
-    bubbleImg.style.transform = `translate3d(0, -${yMousePos}px, 0) scale3d(1, 1, 1)`;
-    })
-
-</script>
-</html>
