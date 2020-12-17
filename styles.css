@@ -551,7 +551,7 @@ h1{
 
 
 /* media */
-@media only screen and (max-width: 370px){
+@media only screen and (max-width: 375px){
 
 #nav_arrow{
     visibility: hidden;
