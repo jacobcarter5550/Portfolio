@@ -1,5 +1,91 @@
 
+@media only screen and (max-width: 375px){
 
+    .nav_container{
+        position: absolute;
+    }
+    
+    .arrow-container{
+        left: 45vw;
+    }
+    
+    .clkd_arow{
+        padding-left: 163px;
+    }
+    
+    #clkd_button{
+        padding-top: 20px;
+    }
+    
+    #clkd_button img{
+        height: 20px;
+    }
+    
+    .nav_logo{
+        width: 80px;
+        left: 8vw;
+    }
+    
+    .nav_rightside{
+        left: 45vw;
+    }
+    
+    #about{
+        font-size: 18px;
+    }
+    
+    #contact{
+        font-size: 18px;
+    }
+    
+    #nav_holo{
+        width: 40px;
+        padding-left: 0px;
+    }
+    
+    #nav_holo img{
+        width: 40px;
+        height: 28px;
+    }
+    
+    .nav_leftside{
+        width: 120px;
+        top: 20vh;
+    }
+    
+    #photography{
+        font-size: 18px;
+    }
+    #videography{
+        font-size: 18px;
+    }
+    #web{
+        font-size: 18px;
+    }
+    #design{
+        font-size: 18px;
+    }
+    #writing{
+        font-size: 18px;
+    }
+    #art{
+        font-size: 18px;
+    }
+    
+    .nav_holo_long{
+        width: 115px;
+    }
+    
+    .nav_holo_long img{
+        width: 115px;
+    }
+    
+    .clkd_long{
+        top: -3.7vh;
+        width: 115;
+    }
+    
+    }
 
 .nav_container{
     display: flex;
@@ -27,7 +113,7 @@
 }
 
 body {
-    /* font-size: calc(14px + (26 - 14) * ( calc(100vw - 300px) / (1600px - 300))); */
+    font-size: calc(14px + (26 - 14) * ( calc(100vw - 300px) / (1600px - 300)));
 }
 
 /* Leftside–––––––––––––––––––––––––––– */
