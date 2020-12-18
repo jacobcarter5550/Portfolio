@@ -512,6 +512,9 @@ h1{
     font-size: 20px;
 }
 
+#my-work{
+    font-size: 40px;
+}
 
 .gridButton{
     background-color: #000000;
@@ -578,7 +581,7 @@ h1{
 
 .body_name_para{
     margin-left: calc((100vw / 4) - 54.5px);
-    font-size: 25px;
+    font-size: 10px;
     line-height: 59px;
 }
 
