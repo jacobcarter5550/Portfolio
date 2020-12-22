@@ -243,15 +243,30 @@ body {
     height: 37px;
 }
 
-#nav_arrow img:before,
-#nav_arrow img:after{
+#nav_arrow a{
+    width: 15px;
+    height: 25px;
+}
+
+#nav_arrow:before,
+#nav_arrow:after{
     position: absolute;
+    mix-blend-mode: exclusion;
     left: 64.1vw;
     top: 7.75vh;
     bottom: 97.12%;
+    content: attr(data-content);
+    width: 15px;
+    height: 25px;
+}
+
+#nav_arrow:before{
     border: 3px #E3B76D;
 }
 
+#nav_arrow:after{
+    border: 3px #000000;
+}
 
 
 #nav_holo{

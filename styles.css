@@ -1,3 +1,33 @@
+/* loader */
+
+.loading {
+    position: fixed;
+    z-index: 99;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loading.hidden {
+    animation: fadeOut 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeOut {
+    100% {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+#loader{
+    height: 200px;
+}
 
 body{
     margin: 0;
@@ -104,126 +134,6 @@ h1:hover ~ #cursor{
     border: 3px #E3B76D;
 }
 
-/* #about{
-    position: absolute;
-    width: 92px;
-    height: 30px;
-    left: 68.8vw;
-    top: 7.9vh;
-    font-family: Raleway;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 28px;
-    text-align: center;
-    color: #000000;
-    text-decoration: none;
-    margin: 0px;
-
-} */
-
-/* #contact{
-    position: absolute;
-    width: 92px;
-    height: 30px;
-    left: 78.6vw;
-    top: 7.9vh;
-    font-family: Raleway;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 28px;
-    text-align: center;
-    color: #000000;
-    text-decoration: none;
-} */
-
-/* #nav_holo{
-    position: absolute;
-    width: 60px;
-    height: 37px;
-    left: 85.9vw;
-    top: 7.25vh;
-
-} */
-
-/* #photography{
-    position: absolute;
-    left: 3.125vw;
-    top: 30.4vh;
-    font-family: Raleway;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 28px;
-    color: #000000;
-    text-decoration: none;
-} */
-
-/* #videography{
-    position: absolute;
-    left: 3.125vw;
-    top: 38.4vh;
-    font-family: Raleway;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 28px;
-    color: #000000;
-    text-decoration: none;
-} */
-/* #web{
-    position: absolute;
-    left: 3.125vw;
-    top: 49.22vh;
-    font-family: Raleway;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 28px;
-    color: #000000;
-    text-decoration: none;
-} */
-/* #design{
-    position: absolute;
-    left: 3.125vw;
-    top: 54.2vh;
-    font-family: Raleway;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 28px;
-    color: #000000;
-    text-decoration: none;
-} */
-/* #writing{
-    position: absolute;
-    left: 3.125vw;
-    top: 62.1vh;
-    font-family: Raleway;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 28px;
-    color: #000000;
-    text-decoration: none;
-} */
-/* #art{
-    position: absolute;
-    left: 3.125vw;
-    top: 70.1vh;
-    font-family: Raleway;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 28px;
-    color: #000000;
-    text-decoration: none;
-} */
-
-
-/* body style */
-
 .body_rectangle{
     display: flex;
     align-items: center;
@@ -266,7 +176,7 @@ h1:hover ~ #cursor{
 .body_connect_para{
     display: flex;
     margin-left: calc((100vw / 2) - 22.5vw);
-    height: 470px;
+    height: 490px;
     font-family: Raleway;
     font-style: normal;
     font-weight: normal;
@@ -279,6 +189,7 @@ h1:hover ~ #cursor{
 
 .body_connect_para p{
     width: 45vw;
+    height: 520px;
 }
 
 .aboutshit{
@@ -291,7 +202,7 @@ h1:hover ~ #cursor{
 
 /* about--------------------------------------------------------------------- */
 .aboutBody{
-    position:a
+    font-size: 30px;
 }
 
 .aboutSmall{
@@ -302,28 +213,43 @@ h1:hover ~ #cursor{
 
 .aboutHead{
     width: 100vw;
-    height: 105.7vh;
+    height: 97.7vh;
+    display: flex;
+    background-color: #E3B76D;
 }
 
 .aboutHead div{
-    position: absolute;
+    position: relative;
 }
 
 .aboutHeadPic img{
     width: 70vw;
 }
 
-.aboutHeadTile{
-    position: absolute;
-    background-color: #E3B76D;
-    width: 100vw;
-    height: 105.7vh;
-}
 
 .tileRectangle1{
     background-color:#ffffff;
-    width: 16.1vw;
-    
+    width: 28.1vw;
+    height: 70px;
+    left: -53vw;
+    top: 10vh;
+}
+
+.tileRectangle1 p{
+    margin: 2vh .5vw;
+}
+
+.tileRectangle2{
+    background-color: #ffffff;
+    width: 23.5vw;
+    height: 101px;
+    left: -22vw;
+    top: 85vh;
+}
+
+.tileRectangle2 p{
+    text-align: center;
+    margin: 1vw 0;
 }
 
 .aboutTile img{

@@ -15,6 +15,10 @@
     <script src="https://cdn.jsdelivr.net/npm/swup@1.0.4/dist/swup.min.js"></script>
 </head>
 <body>
+    <!--loader-->
+    <div class="loading">
+        <img id="loader" src="assets/pictures/7RVP.gif" alt="">
+    </div>
     <!--nav-->
     <div class="nav_container">
         <div class="nav_bar">
@@ -37,11 +41,13 @@
                 </div>
             </div>
             <div class="nav_logo">
-                <img src="assets/Asset 3.svg" alt="">
+                <a href="index.html">
+                    <img src="assets/Asset 3.svg" alt="">
+                </a>
             </div>
             <div class="nav_rightside">
                 <div class="navWrapperAbout opened">
-                    <a href="skills.html" id="about">About</a>
+                    <a href="about.html" id="about">About</a>
                 </div>
                 <div class="navWrapperContact opened">
                     <a href="contact.html" id="contact">Contact</a>
@@ -125,3 +131,9 @@
 
 
 </body>
+<script>
+    window.addEventListener("load", function () {
+        const loader = document.querySelector(".loading");
+        loader.className += " hidden"; // class "loader hidden"
+});
+</script>
