@@ -1,3 +1,10 @@
-const swup = new Swup() 
+// $('.parallax-window').parallax({imageSrc: 'assets/pictures/_MG_0434.jpg'});
 
-console.log('test')
+// $('.parallax-window').parallax({
+//     naturalWidth: 600,
+//     naturalHeight: 400
+//   });
+
+// var rellax = new Rellax('.rellax');
+
+

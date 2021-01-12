@@ -58,3 +58,64 @@
     font-family: Montserrat,sans-serif;
     background-position: 50% 50%;
 }
+
+.floaty_pixel2 {
+    background-image: url(assets/pictures/_MG_2915.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+     /* cursor: none; */
+    position: absolute;
+    width: 100vw;
+    height: 120vh;
+    /* background-color:; */
+    left: 0;
+    top: 0;
+    right: auto;
+    bottom: auto;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.bubble2 {
+    transform-style: preserve-3d;
+    position: relative;
+    left: 0;
+    top: 0;
+    right: auto;
+    bottom: auto;
+    z-index: 2;
+    overflow: hidden;
+    width: 100vw;
+    height: 1500px;
+    /* margin-top: -15vw; */
+    /* margin-left: -15vw; */
+    perspective-origin: 50% 50%;
+    transform-origin: 50% 50%;
+}
+
+.floaty2 {
+    transform-style: preserve-3d;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    display: flex;
+      /* margin-top: 15vw; */
+      /* margin-left: 15vw; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(assets/pictures/background2.png);
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    perspective-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 120vh;
+    font-family: Montserrat,sans-serif;
+    background-position: 50% 50%;
+}

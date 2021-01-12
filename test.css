@@ -1,4 +1,20 @@
+.parallax-window{
+    min-height: 400px;
+    background: transparent;
+    height: 400px;
+    width: 300px;
+    left: 50%;
+}
 
-#bod {
-    background-color: #BFD0E0;
+.imgWindow1{
+    width: 37.951vw;
+    height: 95.853vh;
+    overflow: hidden;
+    /* top: -72vh; */
+}
+
+.fix1{
+    width: 45.138vw;
+    position: relative;
+    /* top: -2.43902vh; */
 }

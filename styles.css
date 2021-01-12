@@ -144,7 +144,7 @@ h1:hover ~ #cursor{
 
 .body_placeholder{
     width: 100%;
-    height: 130vh;
+    height: 120vh;
 }
 
 .down_arrow{
@@ -480,7 +480,7 @@ h1{
 
 
 /* media */
-@media only screen and (max-width: 375px){
+@media screen and (max-width: 375px){
 
 #nav_arrow{
     visibility: hidden;
@@ -506,8 +506,8 @@ h1{
 }
 
 .body_name_para{
-    margin-left: calc((100vw / 4) - 54.5px);
-    font-size: 10px;
+    margin-left: calc((100vw / 4) - 32.5px);
+    font-size: 22px;
     line-height: 59px;
 }
 

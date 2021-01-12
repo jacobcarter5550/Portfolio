@@ -69,6 +69,8 @@ function toggle(){
         navDesi.classList.remove('closedAni')
         navWrit.classList.remove('closedAni')
         navArt.classList.remove('closedAni')
+        downArrow.classList.add('downArrowOpac')
+        downArrow.classList.remove('downArrowOpacfix')
         
     } else {
         unClkdArrow.classList.remove('closed-arrow')
@@ -95,6 +97,8 @@ function toggle(){
         navDesi.classList.add('closedAni')
         navWrit.classList.add('closedAni')
         navArt.classList.add('closedAni')
+        downArrow.classList.remove('downArrowOpac')
+        downArrow.classList.add('downArrowOpacfix')
     }
     open = !open
 }
