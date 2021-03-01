@@ -43,7 +43,7 @@ const wholeNav = document.querySelector('.nav_container')
 let open = true;
 
 function toggle(){
-    console.log('hello')
+    // console.log('hello')
     if (open){
         unClkdArrow.classList.add('closed-arrow')
         unClkdBall.classList.add('closed-ball')

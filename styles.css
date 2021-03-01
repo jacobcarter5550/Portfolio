@@ -223,7 +223,7 @@ h1:hover ~ #cursor{
 }
 
 .aboutHeadPic img{
-    width: 70vw;
+    width: 68.5vw;
 }
 
 
@@ -242,9 +242,9 @@ h1:hover ~ #cursor{
 .tileRectangle2{
     background-color: #ffffff;
     width: 23.5vw;
-    height: 101px;
+    height: 14vh;
     left: -22vw;
-    top: 85vh;
+    top: 88vh;
 }
 
 .tileRectangle2 p{
@@ -268,7 +268,7 @@ h1:hover ~ #cursor{
     position: absolute;
     width: 374px;
     height: 68px;
-    top: 120.1vh;
+    top: 109.1vh;
     left: 63.2vw;
 }
 
@@ -321,7 +321,7 @@ h1:hover ~ #cursor{
 
 #photoshopTile p{
     font-size: 45px;
-    margin-left: 5vw;
+    margin-left: 4vw;
     margin-top: 2vh;
 }
 
@@ -337,7 +337,7 @@ h1:hover ~ #cursor{
 #illustratorTile p{
     color: #ffffff;
     font-size: 45px;
-    margin-left: 3vw;
+    margin-left: 2.5vw;
     margin-top: 0em;
 }
 
@@ -355,13 +355,77 @@ h1:hover ~ #cursor{
     font-size: 40px;
     line-height: 47px;
     text-align: center;
-    width: 886px;
+    width: 61.52vw;
     height: 705px;
     color: #FFFFFF;
-    margin-left: 26.92%;
+    margin-left: calc((100vw / 2) - 30.76vw);
     padding-top: 10%;
     margin-top: 0em;
 }
+
+.reactText{
+    position: absolute;
+    color: black;
+    font-size: 45px;
+    left: 20vw;
+}
+
+.webDesignText{
+    position: absolute;
+    color: black;
+    font-size: 45px;
+    left: 35vw;
+    margin-top: 14vh;
+}
+
+.webflowText{
+    position: absolute;
+    color: black;
+    font-size: 45px;
+    left: 74vw;
+    margin-top: 37vh;
+}
+
+.githubText{
+    position: absolute;
+    color: black;
+    font-size: 45px;
+    left: 37vw;
+    margin-top: 44vh;
+}
+
+.wixText{
+    position: absolute;
+    color: black;
+    font-size: 45px;
+    left: 21vw;
+    margin-top: 40vh;
+}
+
+.uiText{
+    position: absolute;
+    color: black;
+    font-size: 45px;
+    left: 82vw;
+    margin-top: 52vh;
+}
+
+.visualDesignText{
+    position: absolute;
+    color: black;
+    font-size: 45px;
+    left: 36vw;
+    margin-top: 56vh;
+}
+
+.figmaText{
+    position: absolute;
+    color: black;
+    font-size: 45px;
+    left: 70vw;
+    margin-top: 57vh;
+}
+
 
 /* Text Changing––––––––––––––––––––––– */
 
@@ -406,6 +470,7 @@ h1:hover ~ #cursor{
     left: calc((100vw / 2) - 23vw);
     grid-gap: 20px;
 }
+
 
 .box-1{
     border: 2px solid #000000;
@@ -518,6 +583,10 @@ h1{
 }
 .body_connect_para p{
     width: 75vw;
+}
+
+.aboutDescrip p{
+    margin-left: calc((100vw / 2) - 23.07vw);
 }
 
 

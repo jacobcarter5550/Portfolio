@@ -18,3 +18,21 @@
     position: relative;
     /* top: -2.43902vh; */
 }
+
+.testy p{
+    font-size: calc(100vw/2.2222222222222);
+}
+
+.sideMenu{
+    display: none;
+}
+.nav_secondLeft{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    display: table-column;
+}
+
+#web:hover ~ #nav_secondLeft{
+    font-size: 200px;
+}

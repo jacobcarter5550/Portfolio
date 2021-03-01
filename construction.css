@@ -1,0 +1,16 @@
+.constructionP{
+    margin-top: 25vh;
+    text-align: center;
+    font-size: calc(100vw/29);
+}
+
+.constructionImg{
+    display: block;
+    width: 30vw;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+body{
+    background-color: #E3B76D;
+}

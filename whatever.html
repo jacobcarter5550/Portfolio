@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home_Sweet_Home</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="OoBnav.css">
+        <link rel="stylesheet" href="whatever.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        
+        <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+        <link rel="shortcut icon" type="image/png" href="assets/Asset 3.svg">
+        <script defer src="assets/script.js"></script>
+        <script defer src="assets/toggle.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/swup@1.0.4/dist/swup.min.js"></script>
+    </head>
+<body>
+    <!--loader-->
+    <div class="loading">
+        <img id="loader" src="assets/pictures/7RVP.gif" alt="">
+    </div>
+    <!-- throw -->
+    <div class="throwaway">
+        <div class="navPhoto"></div> 
+        <div class="navVid"></div>
+        <div class="navWrit"></div>
+        <div class="navArt"></div>
+        <div class="down_arrow"></div>
+    </div>
+    <!--nav-->
+    <div class="nav_container">
+        <div class="nav_bar">
+            <div class="nav_clicks">
+                <div class="nav_un_clkd">
+                    <div id="nav_arrow" class="opened">
+                        <a id="button">
+                            <img src="assets/Vector.svg" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="nav_logo">
+                <a href="index.html">
+                    <img src="assets/Asset 3.svg" alt="">
+                </a>
+            </div>
+            <div class="nav_rightside">
+                <div class="navWrapperAbout opened">
+                    <a href="about.html" id="about">About</a>
+                </div>
+                <div class="navWrapperContact opened">
+                    <a href="contact.html" id="contact">Contact</a>
+                </div>
+                <div id="nav_holo">
+                    <img src="assets/nav_holo.svg" alt="">
+                </div>
+                <div class="nav_clkd">
+                    <div class="arrow-container">
+                        <div class="clkd_arow">
+                            <a id="clkd_button">
+                                <img src="assets/clkd_arow.svg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="nav_leftside">
+                <div id="ball" class="nav_dot opened">
+                    <img src="assets/nav_dot.svg" alt="">
+                </div>
+                <div class="navItems">
+                    <div class="navWeb">
+                        <div class="holder">
+                            <a href="web.html" id="web">Web/UI/UX</a> 
+                            <div id="hover"></div>
+                        </div>
+                    </div>
+                    <div class="navDesi">
+                        <div class="holder">
+                            <a id="design" href="design.html">Design</a>
+                            <div id="hover"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="nav_holo_long">
+                    <img src="assets/long_nav_holo.svg" alt="">
+                </div>
+                    <div class="default clkd_long">
+                    <img src="assets/clkd_long.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--background-->
+    <div class="bubbleClip">
+        <div class="floaty_pixel">
+            <div class="bubble">
+                <div class="floaty">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script>// --fade
+    const bubble = document.querySelector('.bubble');
+const bubbleImg = document.querySelector('.floaty');
+
+let yMousePos = 0;
+let lastScrolledTop = 0;
+const moveBubble = (e) => {
+yMousePos = e.pageY;
+bubble.style.transform = `translate3d(0, ${yMousePos}px, 0) scale3d(1, 1, 1)`; 
+bubbleImg.style.transform = `translate3d(0, -${yMousePos}px, 0) scale3d(1, 1, 1)`;
+}
+
+document.addEventListener('mousemove', moveBubble)
+document.addEventListener('scroll', e => {
+const newScrollTop = e.target.scrollingElement.scrollTop;
+if (newScrollTop !== lastScrolledTop) {
+    yMousePos -= lastScrolledTop;
+    lastScrolledTop = newScrollTop;
+    yMousePos += lastScrolledTop;
+}
+bubble.style.transform = `translate3d(0, ${yMousePos}px, 0) scale3d(1, 1, 1)`; 
+bubbleImg.style.transform = `translate3d(0, -${yMousePos}px, 0) scale3d(1, 1, 1)`;
+})
+
+window.addEventListener("load", function () {
+    const loader = document.querySelector(".loading");
+    loader.className += " hidden"; 
+});
+</script>
+</html>

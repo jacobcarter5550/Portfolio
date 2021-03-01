@@ -1,0 +1,251 @@
+body{
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.nav_container{
+    position: absolute;
+    top: 0;
+}
+
+.lander-background{
+    position: absolute;
+    z-index: -2;
+    top: 0;
+}
+
+.lander-cheese{
+    width: 100vw;
+}
+
+.introContainer{
+    margin-top: 20vh;
+    text-align: center;
+}
+
+.intro-mustache img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.intro-header{
+    font-size: calc(100vw/29);
+}
+
+.intro-header p{
+    margin-top: 3vh;
+}
+
+#intro-white{
+    color: white;
+}
+
+.intro-sub{
+    width: 40vw;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: calc(100vw/58);
+}
+
+.intro-sub p{
+    margin-top: 3vh;
+}
+
+/* projects */
+
+
+.projects{
+    margin-top: 7vh;
+}
+
+.projects-title{
+    text-align: center;
+    font-size: calc(100vw/56);
+}
+
+/* medkit */
+
+.project-medkit{
+    margin-top: 10vh;
+    display: flex;
+}
+
+.medkit-display{
+    position: relative;
+    margin-left: 10vw;
+    display: flex
+}
+
+/* menu items */
+
+#menuHolo{
+    transform: rotate(180deg); 
+}
+
+#figmaLink{
+    position: relative;
+    left: -3vw;
+}
+
+#webLink{
+    position: relative;
+    left: -1.5vw;
+}
+
+#leCaseStudy{
+    position: relative;
+    left: -1.5vw;
+}
+
+/*  */
+
+.medkit-descrip{
+    margin-left: 5vw;
+    height: 50vh;
+}
+
+.medkit-descrip-menu{
+    position: relative;
+    top: -34.5vh;
+    display: inline-flex;
+    margin-left: 2vw;
+}
+
+.medkit-descrip-para{
+    position: relative;
+    top: -33vh;
+    left: 2vw;
+    width: 37vw;
+    font-size: calc(100vw/64);
+}
+
+
+/* LoanEdu */
+
+.project-loanEdu{
+    display: flex;
+}
+
+.loanEdu-descrip{
+    margin-left: 10vw;
+    width: 40vw;
+    height: 50vh;
+}
+
+.loanEdu-descrip-menu{
+    position: relative;
+    left: 2vw;
+    top: -34.5vh;
+    display: inline-flex;
+    margin-left: 2vw;
+}
+
+.loanEdu-descrip-para{
+    position: relative;
+    top: -33vh;
+    left: 4vw;
+    width: 37vw;
+    font-size: calc(100vw/64);
+}
+
+.loanEdu-display{
+    display: flex;
+    margin-left: 18vw;
+    height: 35vh;
+    margin-top: 4vh;
+}
+
+/* Imagination Library */
+
+.project-imgLib{
+    display: flex;
+}
+
+.imgLib-display{
+    position: relative;
+    margin-left: 10vw;
+    margin-right: 14vw;
+}
+
+.imgLib-descrip{
+    height: 50vh;
+}
+
+.imgLib-descrip-menu{
+    position: relative;
+    top: -34.5vh;
+    display: inline-flex;
+    margin-left: 2vw;
+}
+
+.imgLib-descrip-para{
+    position: relative;
+    top: -33vh;
+    left: 2vw;
+    width: 37vw;
+    font-size: calc(100vw/64);
+}
+
+/* home footer */
+
+
+.home-footy{
+    text-align: center;
+    margin: 15vh 0;
+    font-size: calc(100vw/64);
+}
+
+/* universal footer */
+
+.footy img{
+    margin: 0 .7vw;
+}
+
+/* img fixes */
+
+.medkitLaptop{
+    width: 458px;
+    position: relative;
+    height: 270px;
+}
+
+.medkitPhone{
+    width:127px;
+    height: 209px;
+    position: relative;
+    left: -8vw;
+    top: 10vh;
+}
+
+#loanEduPhone2{
+    width:127px;
+    height: 209px;
+}
+
+#loanEduPhone1{
+    width:127px;
+    height: 209px;
+    position: relative;
+    left: -5vw;
+    top: 5vh;
+}
+
+
+.imgLibLaptop{
+    width: 458px;
+}
+
+#aFix{
+    position: relative;
+    top: .6vh;
+}
+
+#aFix1{
+    position: relative;
+    top: .9vh;
+}
+
+#afix2{
+    text-decoration: none;
+}

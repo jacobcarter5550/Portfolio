@@ -1,10 +1,9 @@
-// $('.parallax-window').parallax({imageSrc: 'assets/pictures/_MG_0434.jpg'});
 
-// $('.parallax-window').parallax({
-//     naturalWidth: 600,
-//     naturalHeight: 400
-//   });
+// const asset = document.querySelector('.navWrapperAbout')
 
-// var rellax = new Rellax('.rellax');
+// const hover = document.querySelector('.hover')
 
-
+// window.addEventListener("mouseover",function()
+//     {
+//         asset.className += "appear";
+// });

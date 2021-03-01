@@ -1,0 +1,126 @@
+.back1{
+    position: absolute;
+}
+
+.back1 img{
+    width: 100vw;
+}
+
+.showcase1{
+    width: 83vw;
+    overflow: hidden;
+    left: 17vw;
+    position: relative;
+    top: 17vh;
+}
+.title1{
+    font-size: calc(100vw/28.81);
+    width: 30vw;
+    text-align: center;
+    padding-left: calc(83vw/4.5);
+}
+
+.train{
+    padding-left: 2vw;
+}
+
+.train img{
+    width: 61.04vw;
+}
+
+.example1{
+    padding-top: 3.5vh;
+}
+
+.example1 img{
+    width: 78vw;
+}
+
+.how1, .research1, .final1{
+    font-size: calc(100vw/37.03);
+}
+
+.paragraph1-1, .paragraph1-2, .paragraph1-3, .paragraph1-4, .paragraph1-5, .paragraph1-6, .paragraph1-7{
+    font-size: calc(100vw/51.5163918);
+    width: 76vw;
+    padding-left: 2vw;
+}
+
+.paragraph1-2, .paragraph1-3, .paragraph1-4, .paragraph1-5{
+    padding: 3vh 0;
+}
+
+.fiveseconds1 {
+    padding-left: calc(83vw/5.33191489);
+}
+
+.fiveseconds1 img{
+    width: 47vw;
+}
+
+.test1{
+    padding-left: calc(80vw/4.15);
+}
+
+.test1 img{
+    width: 40vw;
+}
+
+.display1-1{
+    display: flex;
+    justify-content: space-around;
+    padding-right: 2vw;
+}
+
+.display1-1 img{
+    width: 33vw;
+}
+
+.display1-2{
+    display: flex;
+}
+
+.miniDisplay1-1{
+    padding-left: 4.5vw;
+}
+
+.cards img{
+    width: 25.4vw;
+}
+
+.tower img{
+    width: 57vw;
+}
+
+.small{
+    padding-top: 2vw;
+}
+
+.small img{
+    width: 30vw;
+}
+
+.cluster{
+    padding-left: calc(83vw/5.5);
+}
+
+.cluster img{
+    width: 50vw;
+}
+
+.fullProd{
+    padding-left: 7vw;
+}
+
+.fullProd img{
+    width: 76vw;
+}
+
+.cact img{
+    width: 5vw;
+}
+
+.cact{
+    padding-left: calc(83vw/2.4);
+    padding-bottom: 12vh;
+}
