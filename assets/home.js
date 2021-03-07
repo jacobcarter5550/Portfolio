@@ -1,5 +1,7 @@
 console.log('hell0')
 
+
+
 // Directory––––––––––––––––––––––––––––––––––
 
 const unClkdArrow = document.getElementById('nav_arrow')
@@ -19,6 +21,18 @@ const navHoloSmall = document.getElementById('nav_holo');
 const Logo = document.querySelector('.nav_logo');
 
 const wholeNav = document.querySelector('.nav_container')
+
+const farRightBall = document.querySelector('.navBallW')
+
+const email = document.querySelector('.navEmail')
+
+const navPortfo = document.querySelector('.navPortfo')
+
+const linkedin = document.querySelector('.navLinked')
+
+const insta = document.querySelector('.navInsta')
+
+
 // Toggle––––––––––––––––––––––––––––––––––
 
 let open = true;
@@ -34,7 +48,17 @@ function toggle(){
         navHoloSmall.classList.add('navAni');
         Logo.classList.add('navAni');
         Logo.classList.remove('logoAni');
-        wholeNav.classList.add('fixedMenu')        
+        wholeNav.classList.add('fixedMenu') 
+        farRightBall.classList.add('ballAni', 'opt')
+        email.classList.add('farRightAni')
+        navPortfo.classList.add('farRightAni')
+        linkedin.classList.add('farRightAni')
+        insta.classList.add('farRightAni')   
+        farRightBall.classList.remove('ballAniOut')
+        email.classList.remove('farRightAniOut')
+        navPortfo.classList.remove('farRightAniOut')
+        linkedin.classList.remove('farRightAniOut')
+        insta.classList.remove('farRightAniOut')
     } else {
         unClkdArrow.classList.remove('closed-arrow')
         clkd.classList.remove('opened-right-arrow')
@@ -45,6 +69,16 @@ function toggle(){
         Logo.classList.remove('navAni');
         Logo.classList.add('logoAni');
         wholeNav.classList.remove('fixedMenu')
+        farRightBall.classList.remove('ballAni', 'opt')
+        email.classList.remove('farRightAni')
+        navPortfo.classList.remove('farRightAni')
+        linkedin.classList.remove('farRightAni')
+        insta.classList.remove('farRightAni')
+        farRightBall.classList.add('ballAniOut')
+        email.classList.add('farRightAniOut')
+        navPortfo.classList.add('farRightAniOut')
+        linkedin.classList.add('farRightAniOut')
+        insta.classList.add('farRightAniOut')
     }
     open = !open
 }
@@ -56,3 +90,6 @@ unClkdButton.addEventListener('click', toggle)
 const clkdButton = document.getElementById('clkd_button')
 
 clkdButton.addEventListener('click', toggle)
+
+
+farRightBall.addEventListener('click', toggle)

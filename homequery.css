@@ -1,0 +1,11 @@
+@media only screen and (min-width:1920px){
+
+    .navFarRight{
+        left: 90vw;
+        top: 8.2vh;
+    }
+
+    .ballAni{
+        transform: translateX(-6vw);
+    }
+}

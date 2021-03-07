@@ -52,17 +52,26 @@ body{
     margin-top: 3vh;
 }
 
-/* projects */
 
+
+
+/* projects */
 
 .projects{
     margin-top: 7vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: calc(75em + 4vw);;
 }
 
 .projects-title{
     text-align: center;
     font-size: calc(100vw/56);
 }
+
+
+
 
 /* medkit */
 
@@ -73,52 +82,45 @@ body{
 
 .medkit-display{
     position: relative;
-    margin-left: 10vw;
-    display: flex
+    /* margin-left: 10vw; */
+    display: flex;
+    width: 70%;
 }
 
-/* menu items */
-
-#menuHolo{
-    transform: rotate(180deg); 
-}
-
-#figmaLink{
+.medkitLaptop{
+    width: 31.805vw;
     position: relative;
-    left: -3vw;
 }
 
-#webLink{
-    position: relative;
-    left: -1.5vw;
+.medkitPhone{
+    width: 8.8194vw;
+    position: absolute;
+    left: 25vw;
+    top: 10vh;
 }
-
-#leCaseStudy{
-    position: relative;
-    left: -1.5vw;
-}
-
-/*  */
 
 .medkit-descrip{
     margin-left: 5vw;
     height: 50vh;
+    width: calc(100%/2)
+}
+
+.medkit-descrip-poly{
+    position: absolute;
+    z-index: -1;
 }
 
 .medkit-descrip-menu{
-    position: relative;
-    top: -34.5vh;
     display: inline-flex;
     margin-left: 2vw;
 }
 
 .medkit-descrip-para{
-    position: relative;
-    top: -33vh;
-    left: 2vw;
-    width: 37vw;
+    width: 100%;
     font-size: calc(100vw/64);
 }
+
+
 
 
 /* LoanEdu */
@@ -128,7 +130,6 @@ body{
 }
 
 .loanEdu-descrip{
-    margin-left: 10vw;
     width: 40vw;
     height: 50vh;
 }
@@ -156,68 +157,6 @@ body{
     margin-top: 4vh;
 }
 
-/* Imagination Library */
-
-.project-imgLib{
-    display: flex;
-}
-
-.imgLib-display{
-    position: relative;
-    margin-left: 10vw;
-    margin-right: 14vw;
-}
-
-.imgLib-descrip{
-    height: 50vh;
-}
-
-.imgLib-descrip-menu{
-    position: relative;
-    top: -34.5vh;
-    display: inline-flex;
-    margin-left: 2vw;
-}
-
-.imgLib-descrip-para{
-    position: relative;
-    top: -33vh;
-    left: 2vw;
-    width: 37vw;
-    font-size: calc(100vw/64);
-}
-
-/* home footer */
-
-
-.home-footy{
-    text-align: center;
-    margin: 15vh 0;
-    font-size: calc(100vw/64);
-}
-
-/* universal footer */
-
-.footy img{
-    margin: 0 .7vw;
-}
-
-/* img fixes */
-
-.medkitLaptop{
-    width: 458px;
-    position: relative;
-    height: 270px;
-}
-
-.medkitPhone{
-    width:127px;
-    height: 209px;
-    position: relative;
-    left: -8vw;
-    top: 10vh;
-}
-
 #loanEduPhone2{
     width:127px;
     height: 209px;
@@ -232,9 +171,91 @@ body{
 }
 
 
+
+
+/* Imagination Library */
+
+.project-imgLib{
+    display: flex;
+}
+
+.imgLib-display{
+    position: relative;
+    /* margin-left: 10vw; */
+    margin-right: 14vw;
+}
+
 .imgLibLaptop{
     width: 458px;
 }
+
+.imgLib-descrip{
+    height: 50vh;
+}
+
+.imgLib-descrip-poly{
+    position: absolute;
+    z-index: -1;
+}
+
+.imgLib-descrip-menu{
+    display: inline-flex;
+    margin-left: 2vw;
+}
+
+.imgLib-descrip-para{
+    width: 37vw;
+    margin: 2vw;
+    font-size: calc(100vw/64);
+}
+
+
+
+
+/* home footer */
+
+.home-footy{
+    text-align: center;
+    margin: 15vh 0;
+    font-size: calc(100vw/64);
+}
+
+
+
+
+/* universal footer */
+
+.footy img{
+    margin: 0 .7vw;
+}
+
+
+
+
+/* menu items */
+
+#menuHolo{
+    transform: rotate(180deg); 
+}
+
+#figmaLink{
+    position: relative;
+    left: -3vw;
+}
+
+#webLink{
+    position: relative;
+    left: -1.5vw;
+}
+
+#leCaseStudy{
+    position: relative;
+    left: -1.5vw;
+}
+
+
+
+/* img fixes */
 
 #aFix{
     position: relative;
@@ -248,4 +269,67 @@ body{
 
 #afix2{
     text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+.navFarRight{
+    position: absolute;
+    left: 92vw;
+    top: 8.7vh;
+    width: 2vw;
+}
+
+.navFarRight :nth-child(n+2){
+    margin-top: 2.5vh;
+}
+
+.navBallW img{
+    width: 1.11vw;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.fri img{
+    width: 1.805vw;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.assetFix{
+    left: -0.2vw !important;
+}
+
+/* animations */
+
+.farRightAni{
+    opacity: 0;
+    transform: translateY(-80vh);
+    transition: all 1s;
+}
+
+.ballAni{
+    transform: translateX(-4vw);
+    transition: all 1s;
+}
+
+.farRightAniOut{
+    opacity: 1;
+    transition: all 1s;
+}
+
+.ballAniOut{
+    transition: all 1s;
+}
+
+.opt{
+    cursor: pointer;
 }
