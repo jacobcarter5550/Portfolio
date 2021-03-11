@@ -60,6 +60,10 @@ body{
     left: 0;
 }
 
+.swap{
+    transform: scaleX(-1); 
+}
+
 .lander-cheese{
     width: 100vw;
 }
@@ -72,8 +76,6 @@ body{
 
 }
 
-/* width: 880px;
-    margin-left: 110px; */
 .top{
     display: flex;
     width: 52.77777777777778vw;
@@ -131,7 +133,6 @@ body{
 .columns li{
     width: 22.569444444444443vw;
 }
-
 
 /* research */
 
@@ -414,128 +415,4 @@ body{
     font-size: 55px;
     text-align: center;
     margin-top: 10vh;
-}
-
-
-
-
-
-
-
-
-
-.navFarRight{
-    position: absolute;
-    left: 92vw;
-    top: 8.7vh;
-    width: 2vw;
-}
-
-.navFarRight :nth-child(n+2){
-    margin-top: 2.5vh;
-}
-
-.navBallW img{
-    width: 1.11vw;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-}
-
-.fri img{
-    width: 1.805vw;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-}
-
-.assetFix{
-    left: -0.2vw !important;
-}
-
-/* animations */
-
-.farRightAni{
-    opacity: 0;
-    transform: translateY(-80vh);
-    transition: all 1s;
-}
-
-.ballAni{
-    transform: translateX(-4vw);
-    transition: all 1s;
-}
-
-.farRightAniOut{
-    opacity: 1;
-    transition: all 1s;
-}
-
-.ballAniOut{
-    transition: all 1s;
-}
-
-.opt{
-    cursor: pointer;
-}
-
-
-/* universal footer */
-
-.footy{
-    text-align: center;
-}
-
-.footy img{
-    margin: 0 .7vw;
-}
-
-#caseStudyFooty{
-    margin-top: 15vh;
-}
-
-
-/* menu items */
-
-#menuHolo{
-    transform: rotate(180deg); 
-}
-
-#figmaLink{
-    position: relative;
-    left: -3vw;
-}
-
-#webLink{
-    position: relative;
-    left: -1.5vw;
-}
-
-#leCaseStudy{
-    position: relative;
-    left: -1.5vw;
-}
-
-
-
-/* img fixes */
-
-
-#afix2{
-    text-decoration: none;
-}
-
-.nav_container{
-    position: absolute !important;
-    top: 0;
-}
-
-
-.divider{
-    position: relative;
-    left: -12.01388888888889vw;
-    width: 100vw;
-    height: .3vh;
-    background-color: #000000;
-    opacity: 40%;
 }

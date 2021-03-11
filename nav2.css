@@ -1,0 +1,151 @@
+.nav_container{
+    position: absolute !important;
+    top: 0;
+}
+
+.navFarRight{
+    position: absolute;
+    left: 92vw;
+    top: 8.7vh;
+    width: 2vw;
+}
+
+.navFarRight :nth-child(n+2){
+    margin-top: 2.5vh;
+}
+
+.navBallW img{
+    width: 1.11vw;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.fri img{
+    width: 1.805vw;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.assetFix{
+    left: -0.2vw !important;
+}
+
+/* animations */
+
+.farRightAni{
+    opacity: 0;
+    transform: translateY(-80vh);
+    transition: all 1s;
+}
+
+.ballAni{
+    transform: translateX(-4vw);
+    transition: all 1s;
+}
+
+.farRightAniOut{
+    opacity: 1;
+    transition: all 1s;
+}
+
+.ballAniOut{
+    transition: all 1s;
+}
+
+.opt{
+    cursor: pointer;
+}
+
+
+/* universal footer */
+
+.footy{
+    text-align: center;
+}
+
+.footy img{
+    margin: 0 .7vw;
+}
+
+#caseStudyFooty{
+    margin-top: 15vh;
+}
+
+
+/* menu items */
+
+#menuHolo{
+    transform: rotate(180deg); 
+}
+
+#figmaLink{
+    position: relative;
+    left: -3vw;
+}
+
+#webLink{
+    position: relative;
+    left: -1.5vw;
+}
+
+#leCaseStudy{
+    position: relative;
+    left: -1.5vw;
+}
+
+#afix2{
+    text-decoration: none;
+}
+
+@media only screen and (min-width:1920px){
+    .navFarRight{
+        left: 90vw;
+        top: 8.1vh;
+        position: absolute;
+        width: 2vw;
+    }
+
+    .navFarRight :nth-child(n+2){
+        margin-top: 2.5vh;
+    }
+    
+    .navBallW img{
+        width: 1.11vw;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    .fri img{
+        width: 1.805vw;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    .ballAni{
+        transform: translateX(-7vw);
+        transition: all 1s;
+    }
+
+    .farRightAni{
+        opacity: 0;
+        transform: translateY(-40vh);
+        transition: all 1s;
+    }
+
+    .farRightAniOut{
+        opacity: 1;
+        transition: all 1s;
+    }
+    
+    .ballAniOut{
+        transition: all 1s;
+    }
+    
+    .opt{
+        cursor: pointer;
+    }
+}

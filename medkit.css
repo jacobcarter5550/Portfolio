@@ -1,0 +1,549 @@
+h2{
+    font-family: Myriad Pro;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+h1{
+    font-family: Myriad Pro;
+    font-size: 40px;
+    font-weight: normal;
+}
+
+h3{
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.p1{
+    font-size: 22px;
+}
+
+.title12{
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.sub{
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.button{
+    font-family: Myriad Pro ;
+    font-size: 22px;
+    font-weight: 300;
+}
+
+body{
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+/*––––––––––––––––––––––––container––––––––––––––––––––––––––––––– */
+
+.container{
+    width: 76.04166666666667vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20vh;
+    margin-bottom: 10vh;
+}
+
+/* intro container */
+
+.lander-background{
+    position: absolute;
+    z-index: -4;
+    top: 0;
+    left: 0;
+}
+
+.swap{
+    transform: scaleX(-1); 
+}
+
+.lander-cheese{
+    width: 100vw;
+}
+
+/* intro */
+.introContianer{
+    height: 75vh;
+    width: 55.55555555555556vw;
+    margin-left: 13.194444444444445vw;
+}
+
+.top{
+    display: flex;
+    width: 52.77777777777778vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.caseStudyTitle{
+    width: 30.90277777777778vw;
+    margin-left: 3vw;
+    text-align: center;
+}
+
+.IMlaptop{
+    position: relative;
+    top: -25vh;
+    left: -4.4vw;
+    z-index: -1;
+}
+
+.caseStudyTitle{
+    font-size: 50px;
+}
+
+.IMphone img{
+    width: 15.76388888888889vw;
+}
+
+.IMlaptop img{
+    width: 51.388888888888886vw;
+}
+
+
+/* overveiw */
+
+.overview{
+    margin-bottom: 10vh;
+}
+
+.columns{
+    display: flex;
+    list-style: none;
+}
+
+.columns p{
+    margin: 0;
+}
+
+.columns ul{
+    list-style: none;
+    padding: 0%;
+    margin: 0.7638888888888888vw 0 !important;
+}
+
+.columns li{
+    width: 22.569444444444443vw;
+}
+
+#colAdjus{
+    width: 5vw;
+}
+
+/* Problem */
+
+.problem{
+    margin: 20vh 0;
+}
+
+/* Design Challenge */
+
+.designChallenge{
+    width: fit-content;
+    height: 30vh;
+}
+
+.designRect{
+    position: absolute;
+    width: 100vw;
+    background-color: #E9C58A;
+    height: 28.65853vh;
+    z-index: -1;
+    left: 0;
+}
+
+#pB1-1{
+    position: relative;
+    top: 6vh;
+}
+
+#pB1-2{
+    color: white;
+    position: relative;
+    top: 7vh;
+}
+
+/* Solution */
+
+.solution{
+    margin-top: 35vh;
+}
+
+.solutionHolder{
+    display: flex;
+}
+
+.solutionPhone img{
+    width: 24.3055vw;
+}
+
+/* research */
+
+.research{
+    margin-bottom: 20vh;
+}
+
+.researchB1{
+    margin-bottom: 25vh;
+    margin-top: 10vh;
+}
+
+.rBanner{
+    width: 100vw;
+    position: absolute;
+    left: 0;
+    height: 4.2682926829268295vh;
+    background-color: #E9C58A;
+    z-index: -1;
+}
+
+#bannerText{
+    position: relative;
+    top: 1vh;
+}
+
+.results{
+    margin-top: 15vh;
+    margin-bottom: 7.5vh;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.results img{
+    width: 73.88888888888889vw;
+}
+
+.rColumns{
+    display: flex;
+}
+
+#rColT{
+    text-align: center;
+}
+
+.cardSort img{
+    width: 76.388888888888vw;
+}
+
+/* Ideation */
+
+.iBanner{
+    width: 100vw;
+    position: absolute;
+    left: 0;
+    height: 4.2682926829268295vh;
+    background-color: #E9C58A;
+    z-index: -1;
+}
+
+#tFix1{
+    margin-top: 5vh;
+    font-weight: normal !important;
+}
+
+.defined{
+    margin: 7vh 0;
+}
+
+#span1{
+    font-style: italic;
+}
+
+.ideationColumns{
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+#iColImg{
+    width: 8.75vw;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#subHead{
+    text-align: center;
+    font-size: 25px;
+}
+
+.iCol{
+    width: 22.569444444444443vw;
+}
+
+.iCol p{
+    font-size: 19px !important;
+}
+
+/* prototyping */
+
+.prototyping{
+    margin-top: 20vh;
+}
+
+.pBanner{
+    width: 100vw;
+    position: absolute;
+    left: 0;
+    height: 4.2682926829268295vh;
+    background-color: #E9C58A;
+    z-index: -1;
+}
+
+.pBot{
+    margin-bottom: 15vh;
+}
+
+.mockImgHolder{
+    display: flex;
+    position: relative;
+    left: 10vw;
+}
+
+.mockHolder1, .mockHolder2{
+    display: flex;
+    margin-top: 7vh;
+}
+
+.mockHolder2{
+    margin-top: 10vh;
+}
+
+.mock1{
+    margin-left: 5vw;
+}
+
+.mock2{
+    position: relative;
+    top: 7vh;
+    left: -11vh;
+}
+
+.mockImg img{
+    width: 14.583333333333334vw;
+}
+
+.mockImg2 img{
+    width: 24.305555555555557vw;
+}
+
+#tFix2{
+    width: 38vw;
+}
+
+.mock3{
+    position: relative;
+    left: 2vw;
+    top: -25vh;
+}
+
+.mock4{
+    position: relative;
+    left: -9vw;
+    top: -17vh;
+}
+
+.medStyle{
+    margin-top: 10vh;
+    
+}
+
+.medStyle img{
+    width: 57.111111vw;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.protoypingB3{
+    margin-top: 10vh;
+    height: 120vh;
+}
+
+.iProccessBanner{
+    width: 100vw;
+    position: absolute;
+    left: 0;
+    height: 87vh;
+    background-color: #E9C58A;
+    z-index: -1;
+}
+
+.proccess{
+    top: 3vh;
+    position: relative;
+}
+
+.proccess img{
+    width: 76.04166666666667vw;
+}
+
+#tFix3{
+    position: relative;
+    top: -67.5vh;
+    left: 17vw;
+    width: 59.02777777777778vw;
+}
+
+#tFix4{
+    text-align: right;
+    width: 30.208333333333332vw;
+    top: -28vh;
+    position: relative;
+}
+
+#tFix5{
+    width: 59.375vw;
+    position: relative;
+    top: -20vh;
+    left: 16vw;
+}
+
+.pColTitles{
+    display: flex;
+    justify-content: space-around;
+}
+
+.subTit{
+    text-align: center;
+    width: 15vw;
+}
+
+.subTit h1{
+    font-size: 25px !important;
+}
+
+.pColTexts{
+    display: flex;
+    margin-bottom: 5vh;
+}
+
+.pCol1, .pCol2, .pCol3{
+    margin-left: 2vw;
+}
+
+.p2{
+    font-size: 20px;
+}
+
+.subTit2 h1{
+    font-size: 25px !important;
+}
+
+.redLineHolder{
+    display: flex;
+}
+
+.redLineText{
+    margin-top: 5vh;
+    margin-left: 9vw;
+}
+
+.redLineList{
+    margin: 6vh 0;
+    list-style: none;
+}
+
+.redLine img{
+    width: 45.138888888888886vw;
+}
+
+/* final Product */
+
+.fpBanner{
+    width: 100vw;
+    position: absolute;
+    left: 0;
+    height: 4.2682926829268295vh;
+    background-color: #E9C58A;
+    z-index: -1;
+}
+
+.finalProduct{
+    margin-top: 15vh;
+}
+
+.finals{
+    display: flex;
+    position: relative;
+    width: 100vw;
+    left: -12.01388888888889vw;
+}
+
+.final1{
+    margin-left: 5vw;
+}
+
+.final1 img{
+    width: 51.388888888888886vw;
+}
+
+.final2{
+    margin-top: 5vh;
+    margin-left: 13vw;
+}
+
+.final2 img{
+    width: 15.76388888888889vw;
+}
+
+.buttons{
+    margin-top: 12vh;
+    display: flex;
+}
+
+.button{
+    background-color: #E3B76D;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.button p{
+    margin: 0.7638888888888888vw 0.6944444444444444vw;
+}
+
+#B1{
+    margin-left: 10vw;
+}
+
+#B2{
+    margin-left: 32vw;
+}
+
+.fpB2{
+    margin-top: 20vh;
+}
+
+#fpB2-3{
+    margin-top: 10vh;
+    text-align: center;
+    width: 65vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.thanks{
+    font-family: Myriad Pro;
+    font-weight: 300;
+    font-size: 55px;
+    text-align: center;
+    margin-top: 10vh;
+}
+
+.bullets{
+    margin-left: 12vw;
+    list-style: none;
+}
+
+.p3{
+    margin-top: 5vh;
+    font-size: 22px;
+    width: 50.69444444444444vw;
+}
